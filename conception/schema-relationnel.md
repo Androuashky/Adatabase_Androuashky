@@ -1,12 +1,12 @@
 personne(_id_, nom, prenom, mail, téléphone, adherent)
 
-depot(_id_, date, type_de_depot(enum))
-
 competences(_id_, nom)
 
 categorie(_id_, nom)
 
 vente(_id_, mode_de_paiement, prix_payé)
+
+depot(_id_, date, type_de_depot(enum), #id_personne) R2
 
 benevoles(_id_, date_dadhésions, #id_personne) R2
 
