@@ -1,14 +1,18 @@
-"ne fausse pas nos comptes" => atelier payant ?
-    DECISIONS: ça sera gratuit plus simple pour la gestion 
+## Ateliers
+« Ne fausse pas nos comptes » → Est-ce que les ateliers seront payants ?
 
-"reduction pour adherent" => faire une réduction unique ?
-    DECISIONS: faire un rabais de 10% pour les adherents pour uniformiser le prix de vente
+    DÉCISION : Les ateliers seront gratuits, car cela sera plus simple pour la gestion et évitera de devoir gérer les paiements des ateliers.
 
-"les personnes qui donnent des objets, celles qui achètent, celles qui s'inscrivent aux ateliers et les bénévoles : est-ce que ce sont quatre populations distinctes, ou peut-on être plusieurs à la fois ? "
-    DECISIONS: 2 populations distinctes bénévoles et donneurs. Bénévole peut avoir un id donneur. Je ne vois pas l'intêret de tenir un registre de toutes les personnes qui ont achetés 
+## Types de personnes
+Les personnes qui donnent des objets, celles qui achètent, celles qui s'inscrivent aux ateliers et les bénévoles : est-ce que ce sont quatre populations distinctes, ou est-ce qu'une même personne peut être plusieurs à la fois ?
 
-"être adhérent" => concerne qui ? donneurs ? acheteur ? bénévole ? 
-    DECISIONS : seul les donneurs peuvent être adhérents 
+    DÉCISION : On aura 2 populations distinctes : les personnes et les bénévoles.
+Une même personne peut être donneuse, acheteuse et participante à un atelier. On n'a donc pas besoin de créer une population différente pour chacune de ces situations, car on a besoin des mêmes informations pour une personne qui donne un objet ou qui participe à un atelier.
+Pour les acheteurs, on n'a pas non plus besoin de créer une population spécifique. Lors de l'achat, on demandera simplement « Est-ce que vous êtes adhérent ? » afin de savoir si la personne peut bénéficier du prix réduit.
+
+
+
+
 
 
 
